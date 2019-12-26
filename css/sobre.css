@@ -75,3 +75,37 @@ h1 + p {
 :not(p) + p::first-line {
     font-variant: small-caps;
 }
+
+/*versão mobiel exercício */
+
+@media (max-width: 939px) {
+
+    /*adicionar aqui os novos estilos para mobile*/
+
+    body {
+        width: 98%;
+        margin-left: 0;
+        margin-right: 0;
+     
+    }
+
+    img {
+        margin-right: 0;
+        width: 100%;
+    }
+
+    h1 {
+        text-align: center;
+        margin-right: 0;
+        width: 100%;
+    }
+
+    h2 {
+
+        text-align: center;
+        margin-right: 0;
+        width: 100%;
+
+    }
+
+}
