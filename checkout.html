@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Checkout Mirror Fashion</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="./css/open-iconic-bootstrap.css">
+    <link rel="stylesheet" href="./css/checkout.css">
+</head>
+
+<body>
+
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+
+
+            <h1>Ótima escolha!</h1>
+            <p>Obrigado por comprar na Mirror Fashion! Preencha seus dados para efetivar a compra.
+            </p>
+        </div>
+        <!-- fim .container dentro do jumbotron -->
+
+    </div>
+    <!-- fim .jumbotron -->
+
+
+    <div class="container">
+        <div class="card mb-3">
+            <div class="card-header">
+                <h2>Sua Compra</h2>
+            </div>
+            <!-- fim .card-header -->
+
+            <div class="card-body">
+
+                <img src="img/produtos/foto2-verde.png" alt="Camiseta Ecko Caveira na cor verde"
+                    class="img-thumbnail mb-3">
+
+                <dl>
+                    <dt>Produto</dt>
+                    <dd>Camiseta Ecko Caveira</dd>
+
+
+                    <dt>Cor</dt>
+                    <dd>Verde</dd>
+
+                    <dt>Tamanho</dt>
+                    <dd>42</dd>
+
+
+                    <dt>Preço</dt>
+                    <dd>R$ 48,95</dd>
+
+
+                </dl>
+            </div>
+            <!-- fim .card-body -->
+
+            <form action="">
+                <fieldset>
+                    <legend>Dados Pessoais</legend>
+                    <div class="form-group">
+                        <label for="nome">Nome Completo</label>
+                        <input type="text" class="form-control" id="nome" name="nome" autofocus required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+
+                        <div class="input-group mb3">
+
+
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">@</span>
+                            </div>
+
+                            <input type="email" class="form-control" id="email" name="email"
+                                placeholder="email@exemplo.com">
+
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="cpf">CPF</label>
+                        <input type="text" class="form-control" id="cpf" name="cpf" placeholder="000.000.000-00" required>
+                    </div>
+                    <div class="form-group custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="newsletter" value="sim" checked>
+                        <label class="custom-control-label" for="newsletter">
+                            Quero receber Newsletter da Mirror Fashion
+                        </label>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Dados do Cartão</legend>
+
+                    <div class="form-group">
+                        <label for="numero-cartao">Número - CVV</label>
+                        <input type="text" class="form-control" id="numero-cartão" name="numero-cartao">
+                    </div>
+                    <div class="form-group">
+
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <label for="bandeira-cartao">Bandeira</label>
+
+                            </div>                      
+                            <select class="custom-select" id="bandeira-cartao">
+                                <option disabled selected>Escolha uma opção...</option>
+                                <option value="master">Master</option>
+                                <option value="visa">Visa</option>
+                                <option value="amex">Amex</option>
+                            </select>
+
+                        </div>
+                   
+                       
+                    </div>
+
+                    <div class="form-group">
+                        <label for="validade-cartao">Validade</label>
+                        <input type="month" class="form-control" name="validade-cartao" id="validade-cartao">
+                    </div>
+
+                    <div class="form-group">
+
+                    </div>
+
+
+                </fieldset>
+
+                <button type="submit" class="btn btn-primary mb-3 btn-lg">
+                    <span class="oi oi-thumb-up"></span>
+                    Confirmar Pedido
+                </button>
+
+            </form>
+
+
+        </div>
+        <!-- fim .card -->
+
+    </div>
+    <!-- fim .container da página -->
+
+ 
+
+</body>
+
+</html>
